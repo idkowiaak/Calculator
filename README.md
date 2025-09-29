@@ -34,7 +34,7 @@ Prosty, nowoczesny i responsywny kalkulator stworzony w **HTML**, **CSS** i **Ja
 
 ## 💻 Demo
 
-🔗 **Live Preview (Netlify)**:[calc-project-idkowiaak.netlify.app](https://calc-project-idkowiaak.netlify.app/)
+🔗 **Live Preview (Netlify)**: [calc-project-idkowiaak.netlify.app](https://calc-project-idkowiaak.netlify.app/)
 
 ---
 
