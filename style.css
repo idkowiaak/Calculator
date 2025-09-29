@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgba(31, 41, 55, 0.9);
+}
+
+/*CONTAINERS*/
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*BOX*/
+
+.box {
+  width: 390px;
+  padding: 20px;
+  background-color: rgba(31, 41, 55, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/*INPUT - DISPLAY*/
+
+.display {
+  width: 100%;
+  height: 90px;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 0 15px;
+  text-align: right;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f9fafb;
+  cursor: default;
+}
+
+/*BUTTONS GRID*/
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/*BUTTONS*/
+
+.options.equal {
+  width: 100%;
+  grid-column: span 2;
+}
+
+.number,
+.options {
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.number {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #6366f1, #818cf8);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin: 5px 25px;
+  font-size: 28px;
+  transition: 0.5s ease;
+}
+
+.number:hover {
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #818cf8, #a5b4fc);
+}
+.number:active {
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #707be7, #a4a3eb);
+}
+
+.options {
+  width: 70px;
+  font-size: 28px;
+  height: 70px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f472b6, #fb7185);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
+.options:hover {
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #fb7185, #f472b6);
+}
+.options:active {
+  transform: scale(1.1);
+  background: linear-gradient(145deg, #ea6074, #f361a5);
+}
+
+/*FOOTER*/
+footer {
+  width: 100%;
+}
+
+.copyright {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 9px;
+}
