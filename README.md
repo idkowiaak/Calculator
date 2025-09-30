@@ -39,13 +39,13 @@ Prosty, nowoczesny i responsywny kalkulator stworzony w **HTML**, **CSS** i **Ja
 ---
 
 ## 📁 Struktura projektu
-
+```
 calculator-app/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
-
+```
 ---
 
 ## 🚀 Uruchomienie lokalnie
@@ -58,9 +58,9 @@ git clone https://github.com/idkowiaak/calculator-app.git
 
 2. Przejdź do folderu projektu:
    bash
-
+```
 cd calculator-app
-
+```
 3. Otwórz index.html w przeglądarce:
 
 - Na Windows: dwuklik na pliku
