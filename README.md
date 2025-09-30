@@ -87,15 +87,14 @@ Nie wymaga instalacji żadnych zależności – działa w czystej przeglądarce.
 
 ## 👤 Autor
 
-📧 idkowiaak@gmail.com
-🌍 GitHub idkowiaak
+📧 idkowiaak@gmail.com 🌍 GitHub [idkowiaak](https://github.com/idkowiaak)
 
 ---
 
 ## 🧾 Licencja
 
 Projekt stworzony w celach edukacyjnych. Można dowolnie używać, rozwijać i udostępniać z podaniem autora.
-© 2025 @Idkowiaak – All rights reserved.
+© 2025 @idkowiaak – All rights reserved.
 
 ---
 
